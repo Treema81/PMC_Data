@@ -8,7 +8,7 @@ A preliminary version of this paper is available at https://www.researchgate.net
 
 In the file containing all the results the following columns headers are used
 
-Name: name of the instance
+#Name: name of the instance
 
 Machines: number of identical parallel machines 
 
