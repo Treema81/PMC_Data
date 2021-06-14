@@ -35,6 +35,7 @@ Nodes: total number of branch and price nodes explored
 Solved: 1 if the optimal solution has been found, 0 otherwise. 
 
 
+
 Note that if an instance has been proved infeasible both DB and UB are equal to -1.
 
 For further details on the results please write at nicola(dot)bianchessi(at)unimi(dot)it or at emanuele(dot)tresoldi(at)unimi(dot)it
