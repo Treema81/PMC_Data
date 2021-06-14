@@ -9,18 +9,31 @@ A preliminary version of this paper is available at https://www.researchgate.net
 In the file containing all the results the following columns headers are used
 
 Name: name of the instance
+
 Machines: number of identical parallel machines 
+
 Jobs: number of jobs
+
 Range: maximum size of a job
+
 Density: density of the conflict graph as percentage of maximum number of edges
+
 DB_0: dual bound at root node (-1 if not available)
+
 Time_0: computational time to solve the root node
+
 DB:	final dual bound at the end of the procedure (-1 if not available)
+
 PB:	final primal bound (feasible solution) at the end of the procedure (-1 if not available)
-Gap: percentage residual MIP gap 	
+
+Gap: percentage residual MIP gap 
+
 Time: total execution time ("Timelimit" if the process was stopped after 720 seconds)
+
 Nodes: total number of branch and price nodes explored
+
 Solved: 1 if the optimal solution has been found, 0 otherwise. 
+
 
 Note that if an instance has been proved infeasible both DB and UB are equal to -1.
 
